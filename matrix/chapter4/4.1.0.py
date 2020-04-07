@@ -3,4 +3,10 @@
 如果α≠0，取 b=a/||a||则β是一个单位向量,称之为单位化
 下面的包实现了施密特（Schmidt）正交化
 https://blog.csdn.net/ouening/article/details/83279894
+https://blog.csdn.net/panghaomingme/article/details/60963918
 """
+import common.rsmat as rs
+import numpy as np
+A=np.array([[1,1,2],[-4,2,2]])
+y=rs.rsmat(A)
+

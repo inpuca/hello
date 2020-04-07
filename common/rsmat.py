@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 转化为行最简单矩阵
-@author: MrZjjPolarBear
+@author: James
 """
 
 import numpy as np
