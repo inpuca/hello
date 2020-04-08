@@ -17,5 +17,6 @@ o = GramSchmidt(l)
 print(o)
 a = [Matrix([1,0,-2]), Matrix([1,4,1]), Matrix([-1,1,1])]
 A=GramSchmidt(a,True)
+print("-------------")
 print(A)
 
